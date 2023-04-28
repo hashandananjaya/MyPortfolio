@@ -2,9 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <title>Case 04</title>
+    <link rel="stylesheet" href="assets\css\normalize.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link type="favicon" href="assets/images//instagram.png" rel="icon">
 
-</body>
+
+    <style>
+
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    h1{
+      margin: 0;
+      font-family: Arial;
+    }
+
+    .card{
+      color: white;
+    }
+
+    body {
+      min-block-size: 100vh;
+    }
+
+    section{
+      position: relative;
+      block-size: 100vh;
+      inline-size: 100%;
+    }
+
+    section>div:first-child {
+      position: sticky;
+      top: 0;
+      inline-size: 100%;
+      padding: 10px 15px;
+    }
+
+    section>div:nth-child(2) {
+      min-block-size: 100vh;
+      inline-size: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 5rem;
+    }
+
+    .card1>div:first-child{
+      background-color: red;
+    }
+
+    .card2>div:first-child{
+      background-color: darkblue;
+    }
+
+    .card2>div:nth-child(2){
+      background-color: #0088ff;
+    }
+
+    .card3>div:first-child{
+      background-color: #232323;
+    }
+
+    .card3>div:nth-child(2){
+      background-color: #4c4c4c;
+    }
+
+    .card4>div:first-child{
+      background-color: #8b2d02;
+    }
+
+    .card4>div:nth-child(2){
+      background-color: #ff2800;
+    }
+
+
+
+
+  </style>
+
+</head>
+<main>
+    <body>
+    <section  class="card1">
+        <div>
+            <h1 class="card">Card 1</h1>
+        </div>
+        <div>
+            <h1>Hello</h1>
+        </div>
+    </section>
+    <section class="card2">
+        <div>
+            <h1 class="card">Card 2</h1>
+        </div>
+        <div>
+            <h1>How</h1>
+        </div>
+    </section>
+    <section class="card3">
+        <div>
+            <h1 class="card">Card 3</h1>
+        </div>
+        <div>
+            <h1>Are</h1>
+        </div>
+    </section>
+    <section id="scroll" class="card4">
+        <div>
+            <h1 class="card">Card 4</h1>
+        </div>
+        <div>
+            <h1>You..?</h1>
+        </div>
+    </section>
+    </body>
+</main>
 </html>

@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/css/nomalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/ijse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/socialmonkey-preloader.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/cse_04/assets/images/ijse.png" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_04/assets/images/ijse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/cse_04/assets/images/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_04/assets/images/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/cse_04/assets/images/socialmonkey-preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_04/assets/images/socialmonkey-preloader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/cse_04/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_04/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/R (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/pexels-jeshootscom-442576.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/pexels-jeshootscom-442576.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/pexels-rodnae-productions-7915237.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/pexels-rodnae-productions-7915237.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/pexels-rodnae-productions-7915493.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/pexels-rodnae-productions-7915497.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/pexels-soumil-kumar-735911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/pexels-yan-krukau-9072292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/css_06/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +60,16 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio"
+    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/css/css_06/assets/images"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_05\assets\images" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_04\assets\images" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_03\assets\images" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assets\images" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\css_06\assets\images" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\css_06" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\css_06\assets\css" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_05\Assests\images" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_05\Assests\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682652325578</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1682704376887</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682704376887</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

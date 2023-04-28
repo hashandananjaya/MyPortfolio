@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/css_06/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/css/cse_04/assets/images&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_05\assets\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_04\assets\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_03\assets\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assets\images" />
@@ -123,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682651970637</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1682652325578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682652325578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

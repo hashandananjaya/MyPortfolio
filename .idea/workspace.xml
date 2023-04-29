@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" afterDir="false" />
     </list>
@@ -40,10 +41,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_05\Assests\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\css_06\assets\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\css_06" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\css_06\assets\css" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_05\Assests\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\cse_05\Assests\css" />
     </key>
   </component>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682779857081</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1682785667515</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682785667515</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

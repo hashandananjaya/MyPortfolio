@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/assingnment/css/cse_05/Assests/images/1.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnment/css/cse_04/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_04/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/cse_05/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/assets/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnment/css/css_06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/css/css_06/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/css/css_06/assets/images&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/css/cse_05/Assests/images"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\css\css_06\assets\images" />
@@ -153,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682710028617</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1682779857081</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682779857081</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

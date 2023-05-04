@@ -22,8 +22,48 @@
         <style>
             :root{
                 --color-background: #fff;
-                --color-on-background: rgf(14,14,14);
+                --color-on-background: rgb(14,14,14);
             }
+            @media (prefers-color-scheme:dark){
+                :root{
+                    --color-background:#0e0e0e;
+                    --color-on-background: #bcc3ff;
+                }
+            }
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            html,
+            body{
+                block-size: 100%;
+                margin: 0;
+                font-size: 1rem;
+                font-family: "Inter", sans-serif;
+                font-weight: 400;
+                color: var(--color-on-background);
+                overflow-x: hidden;                
+            }
+            @media (prefers-reduced-motion:no-preference){
+                :where(html){
+                    scroll-behavior: smooth;
+                }
+
+            }
+            @media (prefers-reduced-motion:no-preference){
+                :focus-visible{
+                    transition: outline-offset 145ms cubic-bezier(0.25, 0, 0.4, 1);
+            }
+                :where(:not(:active)):focus-visible {
+                    transition-duration: 0.25s;
+            }
+            }
+            :where(:not(:active):focus-visible){
+                  outline-offset: 5px;
+                
+            }
+            
             :where(body){
                 min-block-size: 100vh;
                 background-color: var(--color-background);
@@ -32,6 +72,21 @@
                 color: var(--color-on-background);
                 text-decoration: none;
             }
+            button{
+                border: none;
+                cursor: pointer;
+            }
+            h1,
+            h2,
+            h3,
+            h4{
+                margin-block: 1.5rem;
+            }
+            p{
+                margin-block: 1rem;
+            }
+
+
             body{
                 max-inline-size: 100vw;
                 background-image: url(assets/images/mainBG.jpg);
@@ -55,7 +110,7 @@
             }
             @media(prefers-color-scheme: dark){
                 .page{
-                    background-color: rgba(240, 244, 248, 0.85);
+                    background-color: rgba(0, 0, 0, 0.85);
                 }
             }
             .top-bar{
@@ -74,18 +129,182 @@
             }
             .top-bar-nav-link{
                 font-weight: 500;
-                padding-block: 1rem;
-                padding-inline: clamp(0,75rem,2vw,1.25rem);
+                padding-block: rem;
+                padding-inline: clamp(0.75rem, 2vw, 1.25rem);
             }
             .top-bar-nav-link:hover{
-                background-color: rgba(15, 15,15, 0.15);
+                background-color: rgba(15, 15, 15, 0.15);
             }
+            .icon-button {
+                inline-size: 48px;
+                block-size: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background-color: rgba(156, 143, 143, 0.479);
+            }
+            .icon-button svg{
+                inline-size: 28px;
+                block-size: 28px;
+                fill: var(--color-on-background);
+                stroke: var(--color-on-background);
+            }
+            .navigation-drawer{
+                position: absolute;
+                visibility: hidden;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                inline-size: 100%;
+                block-size: 100%;
+                background-color: var(--color-background);
+                z-index: 999;
+                transform: translateX(100%);
+                transition: all 0.3s;
+            }
+            @media (min-width:1024px){
+                .navigation-drawer{
+                    display: none;
+                }
+                #mobile-menu-open-btn{
+                     display: none;
+                }           
+             }
+             .navigation-drawer.open{
+                transform: translateX(0);
+                visibility: visible;
+             }
+             #mobile-menu-close-btn{
+                position: absolute;
+                top: 0.5rem;
+                right: 1rem;
+             }
+             .primary-navigation{
+                display: none;
+             }
+             @media (min-width:1024px){
+                .primary-navigation{
+                    display: block;
+                }
+             }
+             .primary-navigation-mobile{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+             }
+             main{
+                block-size: 100%;
+             }
+             .page-section{
+                block-size: 90vh;
+                padding-block: clamp(2rem, 5vh, 6rem);
+                position: relative;
+             }
+             @media (min-width:1366px){
+                .page-section{
+                  padding-block: clamp(4rem, 10vh, 6rem);
+                  display: flex;
+                  align-items: center;
+                }
+             }
+             .wrapper{
+                margin-inline: auto;
+                padding-inline: clamp(1.375rem, 1.2rem, + 0.89vw, 4rem);
+                position: relative;
+                max-inline-size: 85rem;
+                inline-size: 100%;
+             }
+             @media (min-width: 768px){
+                .wrapper{
+                    padding-inline: clamp(1.375rem, 2rem, + 2.5vw, 6rem);
+                }
+
+             }
+             .content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 3rem;
+                inline-size: 100%;
+                z-index: 2;
+             }
+             @media (min-width: 1024px){
+                .content{
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+             }
+             .image{
+                padding-inline: 2rem;
+             }
+             .image img{
+                height: 450px;
+                background: rgba(37, 37, 37, 0.55);
+                border: 10px solid rgba(0, 0, 0, 0.46);
+                border-radius: 50%;
+                /*inline-size: 50%;*/
+                /*block-size: 50%;*/ 
+                object-fit: cover;
+             }
+             .info{
+                text-align: center;
+             }
+             @media(min-width: 1024px){
+                .info{
+                    text-align: start;
+                }
+             }
+             .heading{
+                font-size: 2.5rem;
+                color: #0088ff;
+                display: inline-block;
+                overflow: hidden;
+                white-space: nowrap;
+             }
+             .sub-heading{
+                display: block;
+                font-size: 1.2rem;
+                letter-spacing: 1.5px;
+                color: white;
+                animation: spin_words 10s infinite;
+             }
+             .words{
+                overflow: hidden;
+             }
+
+             .pic-image{
+                inline-size: 100%;
+                block-size: 100%;
+                position: absolute;
+                bottom: -12rem;
+                left: 0;
+                z-index: 1;
+             }
+             a:hover{
+                transition-property: color;
+                transition-duration: 1s;
+                color: white;
+             }
+
+             div>a>img{
+                margin-top: 10px;
+                height: 70px;
+                width: 70px;
+                cursor: pointer;
+             }
+
+
+
         </style>
        </head>
        <body>
         <div class="top-bar wrapper">
             <a href="./" class="logoooo">
-            <img class="logo" src="assets/images/photography.png" alt="logo">
+            <img class="logo" src="assets/images/1.png" alt="logo">
                 </a>
             <nav class="primary-navigation">
                 <a href="index.html" class="top-bar-nav-link">Home</a>
@@ -157,7 +376,7 @@
                 <div class="info">
                     <h1 id="welcome">Hello!</h1>
                     <h1 id="im" class="heading">I'm</h1>
-                    <h1 id="name" class="heading"><span style="color: white">Hasha Dananjaya</span></h1>
+                    <h1 id="name" class="heading"><span style="color: white">Hashan Dananjaya Kalanath</span></h1>
                     <div class="words">
                         <span class="sub-heading">Website and user interface </span>
                         <span class="sub-heading"> Designer</span>
@@ -165,7 +384,7 @@
                 </div>
                 <div class="image">
                     <img
-                            src="assets/images/WhatsApp Image 2023-02-22 at 10.22.36.jpeg"
+                            src="assets/images/12.jpeg"
                             alt="A picture of Hasha Dananjaya"
                     />
                 </div>

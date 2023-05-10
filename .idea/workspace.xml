@@ -31,16 +31,16 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/navigations/images"
+    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/transition/cse_2/assets"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\transition\cse_2\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\navigations\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\navigations\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Animation\cse_4\assets\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Animation\cse_4" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Animation\cse_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\transition\cse_1\assets\images" />
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683752583190</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update">
+      <created>1683752916213</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1683752916213</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

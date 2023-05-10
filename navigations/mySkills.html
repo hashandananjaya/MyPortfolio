@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <title>Hashan Dananhaya/myskills</title>
+    <meta
+            name="description"
+            content="I'm a full stack developer and I currently working as freelancer. I'm a Student of IJSE Undergraduate."
+    />
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <link
+            rel="shortcut icon"
+            href="../assets/images/favicon.ico"
+            type="image/x-icon"
+    />
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            background-image: url("images/13.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            block-size: 100%;
+            margin: 0;
+            font-size: 1rem;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            color: var(--color-on-background);
+            overflow-x: hidden;
+        }
+
+        main{
+            height: 100%;
+        }
+
+        .wrapper {
+            margin-inline: auto;
+            padding-inline: clamp(1.375rem, 1.2rem + 0.89vw, 4rem);
+            position: relative;
+            max-inline-size: 85rem;
+            inline-size: 100%;
+        }
+
+        header{
+            display: flex;
+            align-items: center;
+            min-block-size: 4rem;
+            padding-inline: clamp(1.375rem, 1.2rem + 0.89vw, 2rem);
+        }
+
+        header>nav{
+            position: absolute;
+            right: 20px;
+        }
+
+        header>nav>a{
+            text-decoration: none;
+            font-family: "Arial";
+            font-weight: 500;
+            padding-block: 1rem;
+            padding-inline: clamp(0.75rem, 2vw, 1.25rem);
+            color: #a7d9ff;
+        }
+
+        header>div{
+            height: 60px;
+            width: 60px;
+            border-radius: 100%;
+            border: 2px solid white;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            left: 10px;
+        }
+
+        header>a>img{
+            margin-top: 10px;
+            height: 70px;
+            width: 70px;
+            cursor: pointer;
+        }
+
+
+        body>main>section:nth-child(1){
+            display: flex;
+            margin-top: 50px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 220px;
+        }
+
+
+
+        #java{
+            height: 200px;
+            width: 200px;
+            background: rgba(255, 255, 255, 0.53);
+        }
+        .tdIcon{
+            height: 170px;
+            width: 170px;
+            background: rgb(255, 255, 255);
+        }
+        .IstIcon{
+            height: 140px;
+            width: 140px;
+        }
+
+        @media all and (max-width: 768px) {
+            body>header>a>img{
+                display: none;
+            }
+
+            body>header>nav{
+                left: 0;
+                right: 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            #java{
+                height: 70px;
+                width: 70px;
+                background: rgba(255, 255, 255, 0.53);
+            }
+            .tdIcon{
+                height: 70px;
+                width: 70px;
+                background: rgb(255, 255, 255);
+            }
+            .IstIcon{
+                height: 70px;
+                width: 70px;
+            }
+
+            main>section>img{
+                height: 70px;
+                width: 70px;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+<header class="wrapper">
+    <a href="../index.html">
+        <img src="images/1.png">
+    </a>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="aboutMe.html">About me</a>
+        <a href="myEducation.html">My Education</a>
+        <a href="mySkills.html">My skills</a>
+        <a href="myProjects.html">My projects</a>
+        <a href="contact me.html">Contact me</a>
+
+    </nav>
+</header>
+<main class="wrapper">
+    <section>
+        <img class="IstIcon" src="images/html.png" alt="HTML">
+        <img class="tdIcon" src="images/js.png" alt="JavaScript">
+        <img id="java" src="images/java.png" alt="Java">
+        <img class="tdIcon" src="images/mysql.png" alt="MySQL">
+        <img class="IstIcon" src="images/css-3.png" alt="Css">
+
+    </section>
+
+</main>
+
+</body>
+</html>

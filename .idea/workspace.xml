@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update" />
+    <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/navigations/images/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigations/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigations/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigations/contact me.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigations/contact me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigations/mySkills.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigations/mySkills.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,13 +40,13 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/transition/cse_2/assets"
+    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/navigations/images"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\transition\cse_2\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\navigations\images" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\transition\cse_2\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\navigations\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Animation\cse_4\assets\images" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Animation\cse_4" />
@@ -219,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683752916213</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <created>1683753244847</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683753244847</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1683753262121</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683753262121</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

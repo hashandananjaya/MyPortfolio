@@ -1,395 +1,165 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" color-scheme="outo">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Hashan Dananjaya">
-    <meta name="owner" content="Hashan Dananjaya">
-    <title>
-        Hashan Dananjaya
-    </title>
-    <meta
-            name="description"
-            content="I'm a full stack developer and I currently working as freelancer. I'm a Student of IJSE Undergraduate."
-        />
-    <!-- <link rel="stylesheet" href="./index.css">-->
-    <link
-            rel="shortcut icon"
-            href="assets/images/1.ico"
-            type="images/x-icon"
-        />
-        <style>
-            :root{
-                --color-background: #fff;
-                --color-on-background: rgb(14,14,14);
-            }
-            @media (prefers-color-scheme:dark){
-                :root{
-                    --color-background:#0e0e0e;
-                    --color-on-background: #bcc3ff;
-                }
-            }
-            *{
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-            }
-            html,
-            body{
-                block-size: 100%;
-                margin: 0;
-                font-size: 1rem;
-                font-family: "Inter", sans-serif;
-                font-weight: 400;
-                color: var(--color-on-background);
-                overflow-x: hidden;                
-            }
-            @media (prefers-reduced-motion:no-preference){
-                :where(html){
-                    scroll-behavior: smooth;
-                }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <title>My porfolio</title>
 
-            }
-            @media (prefers-reduced-motion:no-preference){
-                :focus-visible{
-                    transition: outline-offset 145ms cubic-bezier(0.25, 0, 0.4, 1);
-            }
-                :where(:not(:active)):focus-visible {
-                    transition-duration: 0.25s;
-            }
-            }
-            :where(:not(:active):focus-visible){
-                  outline-offset: 5px;
-                
-            }
-            
-            :where(body){
-                min-block-size: 100vh;
-                background-color: var(--color-background);
-            }
-            a{
-                color: var(--color-on-background);
-                text-decoration: none;
-            }
-            button{
-                border: none;
-                cursor: pointer;
-            }
-            h1,
-            h2,
-            h3,
-            h4{
-                margin-block: 1.5rem;
-            }
-            p{
-                margin-block: 1rem;
-            }
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="a" class="logo"> My porfolio</a>
 
+        <div class="bx bx-menu" id="menu-icon"></div>
 
-            body{
-                max-inline-size: 100vw;
-                background-image: url(assets/images/1.jpeg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
-                overflow-x: hidden;
-                z-index: -9;
-            }
-            @media (prefers-color-schem: dark) {
-                body{
-                    background-image: url(assets/images/1.jpeg);
-                }  
-            }
-            .page{
-                block-size: 100%;
-                inline-size: 100%0;
-                background-color: rgba(255,255, 255, 0.85);
-                z-index: -9;
-            }
-            @media(prefers-color-scheme: dark){
-                .page{
-                    background-color: rgba(0, 0, 0, 0.85);
-                }
-            }
-            .top-bar{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                min-block-size: 4rem;
-                padding-inline: clamp(1.375rem,1.2rem + 0.89vw, 2rem);
-            }
-            .logo a.logoooo{
-                border: 2px solid white;
-                border-radius: 100%;
-                color: #0088ff;
-                font-size: 2.5rem;
-                font-weight: 600;
-            }
-            .top-bar-nav-link{
-                font-weight: 500;
-                color: #a7d9ff;
-                padding-block: rem;
-                padding-inline: clamp(0.75rem, 2vw, 1.25rem);
-            }
-            .top-bar-nav-link:hover{
-                background-color: rgba(15, 15, 15, 0.15);
-            }
-            .icon-button {
-                inline-size: 48px;
-                block-size: 48px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 50%;
-                background-color: rgba(156, 143, 143, 0.479);
-            }
-            .icon-button svg{
-                inline-size: 28px;
-                block-size: 28px;
-                fill: var(--color-on-background);
-                stroke: var(--color-on-background);
-            }
-            .navigation-drawer{
-                position: absolute;
-                visibility: hidden;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                inline-size: 100%;
-                block-size: 100%;
-                background-color: var(--color-background);
-                z-index: 999;
-                transform: translateX(100%);
-                transition: all 0.3s;
-            }
-            @media (min-width:1024px){
-                .navigation-drawer{
-                    display: none;
-                }
-                #mobile-menu-open-btn{
-                     display: none;
-                }           
-             }
-             .navigation-drawer.open{
-                transform: translateX(0);
-                visibility: visible;
-             }
-             #mobile-menu-close-btn{
-                position: absolute;
-                top: 0.5rem;
-                right: 1rem;
-             }
-             .primary-navigation{
-                display: none;
-             }
-             @media (min-width:1024px){
-                .primary-navigation{
-                    display: block;
-                }
-             }
-             .primary-navigation-mobile{
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-             }
-             main{
-                block-size: 100%;
-             }
-             .page-section{
-                block-size: 90vh;
-                padding-block: clamp(2rem, 5vh, 6rem);
-                position: relative;
-             }
-             @media (min-width:1366px){
-                .page-section{
-                  padding-block: clamp(4rem, 10vh, 6rem);
-                  display: flex;
-                  align-items: center;
-                }
-             }
-             .wrapper{
-                margin-inline: auto;
-                padding-inline: clamp(1.375rem, 1.2rem, + 0.89vw, 4rem);
-                position: relative;
-                max-inline-size: 85rem;
-                inline-size: 100%;
-             }
-             @media (min-width: 768px){
-                .wrapper{
-                    padding-inline: clamp(1.375rem, 2rem, + 2.5vw, 6rem);
-                }
-
-             }
-             .content{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 3rem;
-                inline-size: 100%;
-                z-index: 2;
-             }
-             @media (min-width: 1024px){
-                .content{
-                    flex-direction: row;
-                    justify-content: space-between;
-                }
-             }
-             .image{
-                padding-inline: 2rem;
-             }
-             .image img{
-                height: 450px;
-                background: rgba(37, 37, 37, 0.55);
-                border: 10px solid rgba(0, 0, 0, 0.46);
-                border-radius: 50%;
-                /*inline-size: 50%;*/
-                /*block-size: 50%;*/ 
-                object-fit: cover;
-             }
-             .info{
-                text-align: center;
-             }
-             @media(min-width: 1024px){
-                .info{
-                    text-align: start;
-                }
-             }
-             .heading{
-                font-size: 2.5rem;
-                color: #0088ff;
-                display: inline-block;
-                overflow: hidden;
-                white-space: nowrap;
-             }
-             .sub-heading{
-                display: block;
-                font-size: 1.2rem;
-                letter-spacing: 1.5px;
-                color: white;
-                animation: spin_words 10s infinite;
-             }
-             .words{
-                overflow: hidden;
-             }
-
-             .pic-image{
-                inline-size: 100%;
-                block-size: 100%;
-                position: absolute;
-                bottom: -12rem;
-                left: 0;
-                z-index: 1;
-             }
-             a:hover{
-                transition-property: color;
-                transition-duration: 1s;
-                color: white;
-             }
-
-             div>a>img{
-                margin-top: 10px;
-                height: 70px;
-                width: 70px;
-                cursor: pointer;
-             }
-
-
-
-        </style>
-       </head>
-       <body>
-        <div class="top-bar wrapper">
-            <a href="./" class="logoooo">
-            <img class="logo" src="assets/images/1.png" alt="logo">
-                </a>
-            <nav class="primary-navigation">
-                <a href="index.html" class="top-bar-nav-link">Home</a>
-                <a href="navigations/aboutMe.html" class="top-bar-nav-link">About me</a>
-                <a href="navigations/myCertificates.html" class="top-bar-nav-link">My Education</a>
-                <a href="navigations/mySkills.html" class="top-bar-nav-link">My skills</a>
-                <a href="navigations/myProjects.html" class="top-bar-nav-link">My projects</a>
-                <a href="navigations/contactMe.html" class="top-bar-nav-link">Contact me</a>
-            </nav>
-            <button
-            id="mobile-menu-open-btn"
-            class="mobile-menu-open-btn icon-button"
-            onclick="openMenu()"
-            type="button"
-            aria-label="Open Menu"
-            aria-expanded="false"
-    >
-        <svg
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                class="ionicon"
-                viewBox="0 0 512 512"
-        >
-            <title>Menu</title>
-            <path
-                    fill="none"
-                    stroke=""
-                    stroke-linecap="round"
-                    stroke-miterlimit="10"
-                    stroke-width="48"
-                    d="M88 152h336M88 256h336M88 360h336"
-            />
-        </svg>
-    </button>
-</div>
-<div id="navDrawer" class="navigation-drawer" aria-hidden="true">
-    <nav class="primary-navigation-mobile">
-        <a href="#" class="top-bar-nav-link">Home</a>
-        <a href="navigations/aboutMe.html" class="top-bar-nav-link">About me</a>
-        <a href="navigations/mySkills.html" class="top-bar-nav-link">My skills</a>
-        <a href="navigations/myCertificates.html" class="top-bar-nav-link">My certificates</a>
-        <a href="navigations/myProjects.html" class="top-bar-nav-link">My projects</a>
-        <a href="navigations/contactMe.html" class="top-bar-nav-link">Contact me</a>
-    </nav>
-    <button
-            id="mobile-menu-close-btn"
-            class="icon-button"
-            type="button"
-            onclick="closeMenu()"
-            aria-label="Close Menu"
-    >
-        <svg
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                class="ionicon"
-                viewBox="0 0 512 512"
-        >
-            <title>Close</title>
-            <path
-                    d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
-            />
-        </svg>
-    </button>
-</div>
-<main>
-    <div class="page-section">
-        <div class="wrapper">
-            <div class="content">
-                <div class="info">
-                    <h1 id="welcome">Hello!</h1>
-                    <h1 id="im" class="heading">I'm</h1>
-                    <h1 id="name" class="heading"><span style="color: white">Hashan Dananjaya Kalanath</span></h1>
-                    <div class="words">
-                        <span class="sub-heading">Website and user interface </span>
-                        <span class="sub-heading"> Designer</span>
-                    </div>
-                </div>
-                <div class="image">
-                    <img
-                            src="assets/images/12.jpeg"
-                            alt="A picture of Hasha Dananjaya"
-                    />
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">My Education</a>
+            <a href="#skills">My Skills</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+     
+    <!--home section design-->
+    <Section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello,I'm <span>Hashan Dananjaya</span></h1>
+            <div class="text-animate">
+                <h3>Website and user interface 
+                    designer</h3>
+                <div class="btn-box">
+                    <a href="#" class="btn">Hire Me</a>
                 </div>
             </div>
         </div>
-    </div>
-</main>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home-imagHover"></div>
+    </Section>
+
+    <!--about section design-->
+      <section  class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="assets/images/17.jpeg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+            <div class="about-contant">
+                <h3>Designer and Developer</h3>
+                <p>I’m Hashan Dananjaya Kalanath.I currently studing in Software Engineering at IJSE in Galle. I also self studying about software and web programming and much more using Internet.</p>
+
+                <div class="btn-box btns">
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+
+      </section>
+
+      <!--aducation section design-->
+      <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="education-row" >
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2008-2013</div>
+                            <h3>Primary Education-G/ Vijaya kanishta Vidyalaya</h3>
+                            <p>I get my primary education from G/ Vijaya kanishta Vidyalaya. Its located on Akmeemana, Galle district. I faced to scolarship exam and i get 167 marks on 2013.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2014-2019</div>
+                            <h3>Secondary Education- G/Thotagoda Aththadassi m.v.</h3>
+                            <p>I faced to  OL exam and get a result of 5 A’s on 2019. Then i face to AL exam on 2022 and finished my school journey.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022</div>
+                            <h3>Higher Education- Institute ofSoftwareEngineering</h3>
+                            <p>Since 2022 January, i following BSc (Hons) in Computer Science at Institute of Software Engineering Galle  </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- skills section design-->
+       <section class="skills" id="skills">
+        <h2 class="heading">my <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+            <h3 class="title">Coding skills</h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="porgress">
+                        <h3>Html <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="porgress">
+                        <h3>Css <span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="porgress">
+                        <h3>javaScript <span>65%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="skills-row">
+            <div class="skills-column">
+            <h3 class="title">professional skills</h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="porgress">
+                        <h3>Web design<span>95%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="porgress">
+                        <h3>web Developer<span>87%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="porgress">
+                        <h3>Graphic Design <span>60%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

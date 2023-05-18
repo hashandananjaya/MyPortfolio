@@ -561,6 +561,7 @@ span {
    .contact {
       min-height: auto;
       padding-bottom: 7rem;
+      
    }
 
    .contact form {
@@ -637,15 +638,7 @@ span {
 
    .contact form .btn-box.btns .btn {
       cursor: pointer;
-   }
-
-
-
-
-
-
-
-   
+   } 
 
 
 
@@ -661,7 +654,15 @@ span {
 
 
 
-   
- 
+
+
+
+
+
+
+
+
+
+
 
 

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/assingnment/assingnment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/animation/Case 03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/animation/Case 03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnment/Frameworks/poc system/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/Frameworks/poc system/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/animation/Case 04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/Frameworks/poc system/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/Frameworks/poc system/placeOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/Frameworks/poc system/placeOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnment/assingnment.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnment/assingnment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -33,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/Frameworks/poc system/assets"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ijse galla h.d.k/2 sem project/css project/CSS-Basics-master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system\assets" />
@@ -284,7 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684362253052</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update">
+      <created>1684447198660</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684447198660</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update">
+      <created>1684447208615</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684447208615</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

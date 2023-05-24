@@ -48,8 +48,8 @@
     font-size: 1.7rem;
     color: var(--text-color);
     font-weight: 500;
-    margin-left: 3.5rem;
-    transition: 3s;
+    margin-left: 3.4rem;
+    transition: .3s;
  }
 
  .navbar a:hover, 
@@ -218,7 +218,7 @@
    align-items: center;
    flex-direction: column;
    gap: 2rem;
-   background: var(--second-bg-color);
+   background: url(assets/img/R\ \(10\).jpeg);
    padding-bottom: 6rem;
 
 }
@@ -235,17 +235,17 @@ span {
 
 .about-img {
    position: relative;
-   width: 40rem;
-   height: 50rem;
-   border-radius: 70%;
+   width: 25rem;
+   height: 25rem;
+   border-radius: 50%;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
 .about-img img {
-   width: 60%;
-   border-radius: 30%;
+   width: 90%;
+   border-radius: 50%;
    border: .2rem solid var(--mian-color);
 }
  
@@ -291,6 +291,8 @@ span {
    flex-direction: column;
    min-height: auto;
    padding-bottom: 5rem;
+   
+   
  }
 
    .education .education-row {
@@ -377,7 +379,7 @@ span {
   .skills {
    min-height: auto;
    padding-bottom: 7rem;
-   background: var(--second-bg-color);
+   background: url(assets/img/OIP\ \(16\).jpeg);
   }
 
   .skills .skills-row {
@@ -467,6 +469,10 @@ span {
       width: 65%;
    }
 
+   .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
+      width: 80;
+   }
+
 
    .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
       width: 95%;
@@ -483,7 +489,7 @@ span {
    }
 
    .Projects {
-      background: var(--bg-color);
+      background: url(assets/img/OIP\ \(15\).jpeg);
 
    }
 
@@ -559,6 +565,7 @@ span {
    }
 
    .contact {
+      background: url(assets/img/R.gif);
       min-height: auto;
       padding-bottom: 7rem;
       

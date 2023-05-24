@@ -4,6 +4,7 @@
     <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/assingnment/Frameworks/poc system/assets/css/bootstrap.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assingnment/Frameworks/poc system/assets/css/bootstrap.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assingnment/Frameworks/poc system/assets/css/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assingnment/Frameworks/poc system/assets/js/bootstrap.bundle.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assingnment/Frameworks/poc system/assets/js/bootstrap.bundle.min.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assingnment/Frameworks/poc system/assets/js/bootstrap.min.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assingnment/Frameworks/poc system/assets/js/bootstrap.min.js.map" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -29,28 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ijse galla h.d.k/2 sem project/css project/CSS-Basics-master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/Frameworks/poc system/assets/images"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system\assets\images" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assets" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\navigations\images" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\transition\cse_2\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\SPA" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system\assets" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\assets" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\transition\cse_1\assets\images" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\transition\cse_1" />
     </key>
   </component>
   <component name="RunManager">
@@ -308,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684701096001</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="update">
+      <created>1684702207433</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1684702207433</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

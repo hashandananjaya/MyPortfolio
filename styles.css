@@ -107,6 +107,26 @@
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .5px var(--mian-color);
+    background-image: linear-gradient(rgb(245, 244, 244),rgb(245, 244, 244));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -33rem 0;
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
+
+ }
+
+ .home-content .text-animate h3::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   border-right: 2px solid var(--mian-color);
+   z-index: -1;
+   animation: homeCursorText 6s linear infinite;
+   animation-delay: 2s;
  }
 
  .btn-box{
@@ -262,10 +282,11 @@ span {
    width: 100%;
    height: 100%;
    border-radius: 50%;
-   border-top: .2rem solid var(--second-bg-color) ;
-   border-bottom: .2rem solid var(--second-bg-color);
-   border-left: .2rem solid var(--mian-color);
-   border-right: .2rem solid var(--mian-color);
+   border-top: .2rem solid black ;
+   border-bottom: .2rem solid black;
+   border-left: .2rem solid yellow;
+   border-right: .2rem solid yellow;
+   animation: aboutSpinner 8s linear infinite;
 }
 
 .about-contant {
@@ -669,6 +690,8 @@ span {
       
    } 
 
+    /*BREAKPOINTS*/
+
    @media (max-width: 1200px){
       html {
          font-size: 55%;
@@ -771,6 +794,85 @@ span {
          font-size: 50%;
       }
       
+      .home-content h1{
+         display: flex;
+         flex-direction: column;
+      }
+
+      .home-sci {
+         width: 160px;
+      }
+
+      .home-sci a {
+         width: 38px;
+         height: 38px;
+      }
+   }
+
+   @media (max-width: 462px) {
+      .home-content h1 {
+         font-size: 5.2rem;
+      }
+      .education {
+         padding: 10rem 4% 5rem 5%;
+      }
+      .contact form .input-box .input-field {
+         width: 100%;
+      }
+
+      .footer p {
+         text-align: center;
+      }
+      
+      
+   }
+   @media (max-width: 371px) {
+      .home {
+         justify-content: center;
+      }
+
+      .about-contant{
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         text-align: center;
+      }
+      
+      .home-content h1 {
+         font-size: 5rem;
+      }
+
+
+   }
+
+   /*keyFrames Animation*/
+   @keyframes homeBgText {
+      0%,10%,100% {
+         background-position: -33rem 0;
+      }
+      65%,85% {
+         background-position: 0 0;
+      }
+   }
+
+   @keyframes homeCursorText {
+      0%,10%,100% {
+         width: 0;
+      }
+      65%,78%,85% {
+         width: 100%;
+         opacity: 1;
+      }
+      
+      75%,81% {
+         opacity: 0;
+      }
+   }
+   
+   @keyframes aboutSpinner {
+      100% {
+         transform: translate(-50%, -50%) rotate(360deg);
+      }
    }
 
 

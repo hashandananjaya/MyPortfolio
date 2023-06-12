@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update" />
+    <list default="true" id="cdc49eba-2a71-4687-9787-b737fa371d8e" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/Customers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/jquery-3.7.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Inmemariy/spa/placeOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnment/Js/Queue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,21 +90,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/Js/assets&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ijse galla h.d.k/2 sem project/Working zone/MyPorfolio/assingnment/Js/KNIGHT"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\KNIGHT" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\Inmemariy\spa\assets" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\Inmemariy\spa" />
+      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\Inmemariy" />
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\assets" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system\assets\images" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system\assets" />
-      <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Frameworks\poc system" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ijse galla h.d.k\2 sem project\Working zone\MyPorfolio\assingnment\Js\spa" />
@@ -349,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685440407024</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update">
+      <created>1685461059868</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1685461059868</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

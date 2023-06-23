@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="styles-preloader.css">
     <title>My porfolio</title>
 
 
@@ -19,6 +20,9 @@
     type="image/x-icon"
     />
 </head>
+<body>
+    <div id="preloader"></div>
+</body>
 <body>
     <!--header design-->
     <header class="header">
@@ -246,6 +250,10 @@
     
          </form>
 
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/3yP_D-Y1uCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/3yP_D-Y1uCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+
     </section>
     <!--footer design-->
     <footer class="footer">
@@ -255,6 +263,15 @@
     </footer>
 
       <script src="assets/Js/script.js"></script>
-    
+
+      <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+
+        })
+      </script>
+
 </body>
 </html>

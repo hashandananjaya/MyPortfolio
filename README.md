@@ -19,7 +19,7 @@
 
 <h2> Assignments</h2>
 <ul>
-<li>Assignment Page URl : http://localhost:63342/MyPorfolio/assingnment/assingnment.html?_ijt=nv6t69e5niqpdmfteeakts1a1a&_ij_reload=RELOAD_ON_SAVE</li>
+<li>Assignment Page URl : localhost:63342/MyPorfolio/assingnment/assingnment.html?_ijt=nv6t69e5niqpdmfteeakts1a1a&_ij_reload=RELOAD_ON_SAVE </li>
 </ul>
 
 # Assignments

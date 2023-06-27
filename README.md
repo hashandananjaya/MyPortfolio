@@ -17,16 +17,6 @@
 <li>Webhost : https://hashandananjaya.000webhostapp.com/ </li>
 </ul>
 
-<h2> Assignments</h2>
-<ul>
-<li>Assignment Page URl : localhost:63342/MyPorfolio/assingnment/assingnment.html?_ijt=nv6t69e5niqpdmfteeakts1a1a&_ij_reload=RELOAD_ON_SAVE </li>
-</ul>
-
-# Assignments
-
-![Screenshot 2023-06-27 183419](https://github.com/hashandananjaya/MyPortfolio/assets/114279780/6c24586e-aa1a-4424-9623-85dd79c59207)
-
-
 <h2>POS System - [SPA]</h2>
 
 <ul>
@@ -47,6 +37,12 @@
 ![Screenshot 2023-06-27 170808](https://github.com/hashandananjaya/MyPortfolio/assets/114279780/bdbcc22b-47ce-4d11-991e-624ebb4f0f21)
 
 ![Screenshot 2023-06-27 170830](https://github.com/hashandananjaya/MyPortfolio/assets/114279780/57d10d2a-1ebb-4044-834b-f8340f90d70a)
+
+# Assignments
+
+![Screenshot 2023-06-27 183419](https://github.com/hashandananjaya/MyPortfolio/assets/114279780/6c24586e-aa1a-4424-9623-85dd79c59207)
+
+
 
 # POS SYSTEM
 

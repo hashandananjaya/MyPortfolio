@@ -21,7 +21,6 @@
 
 <ul>
 <li>Moke-up URL : https://www.figma.com/file/kZ31mFFi0TDDrX4Q2Rj3w5/pos-system?type=design&mode=design&t=0TUjjQcB3waYABZe-1</li>
-<li>pos system Page URL : http://localhost:63342/MyPorfolio/assingnment/Js/inMemoryPos/spa/index.html?_ijt=lro5ivniap2ao0rcnavne1kk43&_ij_reload=RELOAD_ON_SAVE</li>
 </ul>
 
 # My Portfoliyo
